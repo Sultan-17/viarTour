@@ -3,7 +3,7 @@ import styles from './Contact.module.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import image1 from '../../assets/bouth.png';
+import image1 from '../../assets/africa.png';
 import image2 from '../../assets/mingcute_phone-fill.png';
 import image3 from '../../assets/Vector2.png';
 import payme from '../../assets/Payme.png';
