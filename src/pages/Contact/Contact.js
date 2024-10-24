@@ -8,7 +8,7 @@ import image2 from '../../assets/mingcute_phone-fill.png';
 import image3 from '../../assets/Vector2.png';
 import payme from '../../assets/Payme.png';
 import click from '../../assets/click..png';
-import Modal from '../../components/Modal/Modal';
+import Modal from '../../components/Modal/Modal'; // Modalni import qilish
 import { useTranslation } from 'react-i18next';
 
 // Leaflet marker icon setup
