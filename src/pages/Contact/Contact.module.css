@@ -20,9 +20,8 @@
   }
   
   .image {
-    background-color: black;
     width: 100%;
-    object-fit: cover; 
+    object-fit: cover;
     border-radius: 55px 0px 0px 55px;
   }
   
