@@ -1,0 +1,101 @@
+
+.parallaxSection {
+  background-image: url('../../assets/viar-pattern.png'); /* Pattern rasmingizni path'ini yozing */
+  background-attachment: fixed;
+  background-position: center top; /* Boshlanish pozitsiyasi tepada */
+  background-repeat: repeat; /* Orqa fonni pattern qilib qaytarish */
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  /* margin-top: 180px;  */
+}
+
+.content {
+  width: 1290px;
+  margin: 100px auto;
+  padding: 20px;
+  background: rgba(7, 64, 73, 1); /* Kontent qismi uchun yarim shaffof fon */
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.content_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  gap: 20px;
+}
+
+.content_btn {
+  border-radius: 40px;
+  padding: 18px 38px;
+  transition: 0.5s;
+  border: 1px solid #FFFFFF;
+  display: flex;
+  align-items: center;
+  background-color: #074049;
+  color: white;
+}
+.content_btn:hover {
+  cursor: pointer;
+  background-color: #0FB1AC;
+  border-color: #0FB1AC;
+}
+.content_btn_right {
+  border-radius: 40px ;
+  padding: 18px 38px;
+  transition: 0.5s;
+  border: 1px solid #FFFFFF;
+}
+.content_btn_right:hover {
+  cursor: pointer;
+  background-color: #0FB1AC;
+  border-color: #0FB1AC;
+}
+
+.content_h1 {
+  text-align: start;
+  font-size: 56px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+@media (max-width: 1152px) {
+  .content_left {
+    display: flex;
+    align-items: center;
+  }
+  .content_h1 {
+    text-align: center;
+  }
+}
+@media (max-width: 431px) {
+  .lottieContainer {
+    display: none;
+  }
+  .content {
+    height: 400px;
+  }
+  .content_h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 329px) {
+  .content_btn_right {
+    display: none;
+  }
+}

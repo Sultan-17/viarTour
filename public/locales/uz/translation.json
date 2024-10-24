@@ -1,0 +1,179 @@
+{
+    "browseAll"                 : {
+        "browseButton"          : "Barchasini ko‘rish"
+    },
+    "cards"                     : {
+        "date"                  : "22 Iyun 2024",
+        "guests"                : "Mehmonlar",
+        "bookButton"            : "Band qilish",
+        "bali"                  : "Bali",
+        "paris"                 : "Parij",
+        "safari"                : "Safari",
+        "tokyo"                 : "Tokyo",
+        "kair"                  : "Kair",
+        "dubai"                 : "Dubai",
+        "rome"                  : "Rim",
+        "pekin"                 : "Pekin",
+        "moscow"                : "Moskva",
+        "baliDescription"       : "Bali haqida qisqacha ma’lumot.",
+        "parisDescription"      : "Parij haqida qisqacha ma’lumot.",
+        "safariDescription"     : "Safari haqida qisqacha ma’lumot.",
+        "tokyoDescription"      : "Tokyo haqida qisqacha ma’lumot.",
+        "kairDescription"       : "Kair haqida qisqacha ma’lumot.",
+        "dubaiDescription"      : "Dubai haqida qisqacha ma’lumot.",
+        "romeDescription"       : "Rim haqida qisqacha ma'lumot.",
+        "pekinDescription"      : "Pekin haqida qisqacha ma’lumot.",
+        "moscowDescription"     : "Moskva haqida qisqacha ma’lumot."
+    },
+    "chooseUs"                  : {
+        "infoSubTitle"          : "Nima uchun biz?",
+        "infoTitle"             : "Biz faqat sayohatlarni emas,\nxotiralarni yaratamiz.",
+        "cardTitle1"            : "Sarguzashtlar kutmoqda",
+        "cardTitle2"            : "Hashamatli sayohatlar",
+        "cardTitle3"            : "Madaniy sayohatlar",
+        "cardTitle4"            : "Unutilmas xotiralar",
+        "cardParagraph1"        : "Yangi joylarni kashf eting",
+        "cardParagraph2"        : "Qulay sayohat qiling",
+        "cardParagraph3"        : "Tarixni o‘rganing",
+        "cardParagraph4"        : "Esda qolarli lahzalar yarating"
+    },
+    "differentCard"             : {
+        "infoTitle"             : "Bizni boshqalardan nima farqimiz bor?",
+        "infoParagraph"         : "Viar’da bizning e’tiqodimiz shuki, sayohat bu unutilmas tajribalar yaratishdir. Bizning jamoamiz har bir sayohat yoqimli va mazmunli bo‘lishi uchun shaxsiy xizmatni taklif etadi.\nEng yaxshi joylarni tanlab, maslahat beramiz va sizning sayohatingizdan to‘liq zavq olishingiz uchun barcha narsalarni o‘zimiz hal qilamiz. Viar bilan sizning sarguzashtingiz har doim noyob bo‘ladi.",
+        "moreButton"            : "Batafsil"
+    },
+    "faq"                       : {
+        "leftQuestion1"         : "Qanday qilib sayohatni band etishim mumkin?",
+        "leftQuestion2"         : "Qaysi to‘lov usullarini qabul qilasiz?",
+        "leftQuestion3"         : "Sayohat paketini moslashtirish mumkinmi?",
+        "leftAnswer1"           : "Sayohatni veb-saytimiz orqali yoki qo‘llab-quvvatlash jamoamizga email yoki telefon orqali murojaat qilib band etishingiz mumkin.",
+        "leftAnswer2"           : "Biz kredit/debet kartalari, PayPal va bank o‘tkazmalarini qabul qilamiz.",
+        "leftAnswer3"           : "Ha, biz sizning xohishlaringiz va ehtiyojlaringizga moslashtirilgan sayohat paketlarini taklif qilamiz",
+        "rightQuestion1"        : "Bekor qilish siyosati qanday?",
+        "rightQuestion2"        : "Guruh uchun chegirmalar bormi?",
+        "rightQuestion3"        : "Sayohat sug‘urtasi paketga kiritilganmi?",
+        "rightAnswer1"          : "To‘liq qaytarish uchun sayohatga 7 kun qolgunga qadar bekor qilishingiz kerak. 7 kun ichida bekor qilingan sayohatlar uchun 50% to‘lov olinadi.",
+        "rightAnswer2"          : "Ha, 5 yoki undan ortiq odam uchun maxsus chegirmalar mavjud. Qo‘shimcha ma’lumot uchun biz bilan bog‘laning.",
+        "rightAnswer3"          : "Yo‘q, sayohat sug‘urtasi paketga kiritilmagan. Shuning uchun, sayohatdan oldin sug‘urta sotib olishingizni tavsiya qilamiz.",
+        "fAQ"                   : "FAQ",
+        "fAQParagraph"          : "Savollaringiz bormi? Bizning FAQ bo‘limimiz eng ko‘p beriladigan savollarga javob beradi."
+    },
+    "footer"                    : {
+        "menu"                  : "Menyu",
+        "home"                  : "Bosh sahifa",
+        "about"                 : "Biz haqimizda",
+        "tours"                 : "Turlar",
+        "contact"               : "Aloqa",
+        "popular"               : "Mashhur sayohatlar",
+        "li1"                   : "Baliga tropik sayohat",
+        "li2"                   : "Yevropa bo‘ylab sayohat",
+        "li3"                   : "Yaponiya madaniyati va oshxonasi",
+        "li4"                   : "Afrika safari sarguzashti",
+        "location"              : "Toshkent, Shahontohur ko'chasi,\nmarkaz-15, 10-uy, 29-xona",
+        "ull"                   : "Silicon Hub tomonidan ishlab chiqilgan va yaratilgan.",
+        "rights"                : "© 2024 Silicon Hub. Barcha huquqlar himoyalangan."
+    },
+    "header"                    : {
+        "home"                  : "Asosiy",
+        "about"                 : "Biz haqimizda",
+        "tours"                 : "Turlar",
+        "contact"               : "Aloqa",
+        "language"              : "UZ",
+        "getStartedButton"      : "Boshlash"
+    },
+    "items"                     : {
+        "infoParagraph"         : "QANDAY BOSHLANDI.",
+        "infoTitle1"            : "Sayohatning diqqatga sazovor joylari",
+        "infoTitle2"            : "Bizning jamoamiz"
+    },
+    "line"                      : {
+        "title1"                : "Ortimizdagi hikoya",
+        "title2"                : "Bizning kelajak rejamiz",
+        "title3"                : "Bizning kelib\nchiqish hikoyamiz",
+        "title4"                : "Bizning hozirgi holatimiz",
+        "infoParagraph1"        : "Bizning kurort tarixi va qarashlari haqida\nbilib oling. Oddiy g'oya hamma uchun ajoyib\nxizmat va xotiralarga ega bo'lgan\neng yaxshi manzilga aylandi.",
+        "infoParagraph2"        : "Bizning kurort tarixi va qarashlari haqida bilib\noling. Oddiy g'oya sifatida boshlangan narsa\najoyib xizmat va unutilmas tajribalarga bo'lgan\nishtiyoq tufayli yuqori manzilga aylandi.",
+        "infoParagraph3"        : "Dam olish maskanimiz va nima uchun yaratilganligi\nhaqida bilib oling. Biz dam olishingiz, qulay\nva qiziqarli bo'lishingiz mumkin\nbo'lgan noyob joy yaratmoqchi edik.",
+        "infoParagraph4"        : "Biz yangi texnologiyalardan foydalanish va\nmijozlar uchun xizmatimizni yaxshilash orqali\no'sishni va katta ta'sir\nko'rsatishni xohlaymiz."
+    },
+    "modal"                     : {
+        "infoTitle"             : "Taqdim etganingiz uchun tashakkur!",
+        "infoParagraph"         : "Tez orada sizga qayta javob beramiz."
+    },
+    "parallax"                  : {
+        "parallaxTitle"         : "Sarguzasht sevuvchilar\npochtasiga qo'shiling!",
+        "parallaxButton1"       : "Band qilish",
+        "parallaxButton2"       : "Sayohatlarni ko‘rish"
+    },
+    "resort"                    : {
+        "infoParagraph"         : "QANDAY BOSHLANDI.",
+        "infoTitle"             : "Bizning kurortda bir kunni his qiling"
+    },
+    "reviewCarousel"            : {
+        "quote1"                : "Bu biz boshdan kechirgan eng yaxshi tajriba edi",
+        "quote2"                : "Ajoyib dam olish",
+        "quote3"                : "Unutilmas sarguzasht",
+        "text1"                 : "Viarda biz unutilmas sayohatlar yaratishdan faxrlanamiz va eng yaxshi tavsiyalar bu – bizning baxtli sayohatchilarimizning ovozidir.",
+        "text2"                 : "Viar bizning sayohatimizni ajoyib joylar va rejalashtirish bilan o‘ziga xos qildi. Biz albatta qaytamiz!",
+        "text3"                 : "Viar tufayli bizning sarguzashtimiz quvonch va hayajonga to‘la bo‘ldi. Tavsiya etamiz!",
+        "infoTitle"             : "Mijozlarimiz hikoyalari",
+        "infoParagraph"         : "Biz olgan ijobiy fikrlar sayohatlarimiz va shaxsiy xizmatlarimizning sifatini aks ettiradi."
+    },
+    "sameCards"                 : {
+        "kualaLumpur"           : "Kuala Lumpur",
+        "paris"                 : "Parij",
+        "rome"                  : "Rim",
+        "date"                  : "22 Iyun 2024",
+        "guests"                : "Mehmonlar",
+        "kualaDescription"      : "Kuala Lumpur haqida qisqacha ma'lumot.",
+        "parisDescription"      : "Parij haqida qisqacha ma'lumot.",
+        "romeDescription"       : "Rim haqida qisqacha ma'lumot.",
+        "bookButton"            : "Band qilish"
+    },
+    "teamCards"                 : {
+        "name1"                 : "Emily Carter",
+        "name2"                 : "James Lewis",
+        "name3"                 : "Sophia Martinez",
+        "price1"                : "Menejer",
+        "price2"                : "Bosh direktor",
+        "price3"                : "Mehmonlar bilan ishlash korgazmadori"
+    },
+    "aboutPage"                 : {
+        "carouselText"          : "Bizning agentlik bilan tanishing",
+        "carouselParagraph"     : "Bizning kurortlarimizning diqqatga sazovor joylari va o‘ziga xos jihatlarini ochib bering.\nMukammal xizmatlar, qulay joylar va dam olishingizni yanada boyitadigan faoliyatlar haqida bilib oling.",
+        "infoParagraph"         : "QANDAY BOSHLANDI.",
+        "infoTitle"             : "Biz uzoq yo‘lni bosib o‘tdik."
+    },
+    "contactPage"               : {
+        "title"                 : "Savolingiz bormi? Keling, suhbatlashamiz",
+        "description"           : "Sizga ta’tilingizni rejalashtirishda yordam beramiz.",
+        "nameInput"             : "Ism",
+        "phoneInput"            : "Telefon raqami",
+        "placeInput"            : "Qayerga borishni xohlaysiz?",
+        "fillAlert"             : "Iltimos barcha bo'shliqlarni to'ldiring!",
+        "submitButton"          : "Yuborish",
+        "paymentTitle"          : "Bron uchun\nonline to‘lang",
+        "paymentParagraph"      : "Uzcard, Humo va Mastercard kartalari orqali to‘lovlarni\nPayMe orqali amalga oshirishingiz mumkin.",
+        "paymentButton"         : "To‘lovga o‘tish",
+        "locationTitle"         : "BIZNING JOYLASHUVIMIZ.",
+        "locationParagraph"     : "Bosh ofis",
+        "locationName"          : "Toshkent, Shahontohur ko'chasi,\nmarkaz-15, 10-uy, 29-xona",
+        "emailTitle"            : "Savollaringiz bormi?",   
+        "phoneTitle"            : "Gaplashishni xohlaysizmi?",
+        "locationPopup"         : "Bizning ofisimiz shu yerda!"
+    },
+    "homePage"                  : {
+        "carouselTitle"         : "Viar bilan\nsayohat xizmati",
+        "carouselParagraph"     : "Biz bilan unutilmas sayohatlar va dunyodagi ajoyib joylarni kashf qiling",
+        "exploreButton"         : "Xonalarni ko'rish",
+        "aboutButton"           : "Batafsil o'qish",
+        "infoTitle"             : "Bizning turlar bilan tanishing!",
+        "infoParagraph"         : "Viar bilan keyingi sarguzashtingizni rejalashtiring va ajoyib manzaralar, boy madaniyatlar va unutilmas tajribalarni kashf qiling."
+    },
+    "tourPage"                  : {
+        "carouselTitle"         : "Bizning sayohatlarni\nko‘rib chiqing",
+        "carouselParagraph"     : "Bizning kurortlarimizning o‘ziga xos xususiyatlari va qulayliklari\nhaqida bilib oling. Hashamatli joylar va xilma-xil oshxonalarni\no‘rganing, shuningdek, mavjud faoliyatlar haqida ma'lumot oling.",
+        "infoTitle"             : "Sayohatni tanlang",
+        "infoSubTitle"          : "Mavjud joylarni o‘rganing"
+    }
+}

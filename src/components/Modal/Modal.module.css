@@ -1,0 +1,55 @@
+/* Modalning orqa fonini qoraytirish uchun */
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Qoraroq fon */
+    z-index: 999;
+  }
+  
+  /* Modalni asosiy stili */
+  .modal {
+    position: fixed;
+    top: -100%; /* Modal yuqoridan tushib keladi */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    animation: slideDown 0.5s forwards;
+  }
+  
+  /* Modal tarkibi */
+  .modalContent {
+    max-height: 70vh;
+    overflow-y: auto;
+    text-align: center;
+  }
+  
+  /* Yopish tugmasi */
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Modalni yuqoridan pastga tushish animatsiyasi */
+  @keyframes slideDown {
+    from {
+      top: -100%;
+    }
+    to {
+      top: 20%; /* Pastroqqa tushadi */
+    }
+  }
+  

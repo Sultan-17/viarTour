@@ -1,0 +1,144 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    /* position: relative; */
+    padding: 0 50px;
+  }
+  .mainInfo {
+    padding: 120px 15px 60px;
+    gap: 20px;
+  } 
+  .line {
+    width: 140px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: rgba(15, 177, 172, 1);
+    margin: 20px auto;
+  }
+  
+  .reviewCard {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 40px;
+    padding: 20px;
+    width: 906px;
+    height: 342px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    margin-bottom: 60px;
+    gap: 20px;
+  }
+  
+  .reviewImage { 
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    margin-left: 108px;
+  }
+  
+  .reviewText {
+    margin-top: 10px;
+    margin-right: 108px;
+    text-align: start;
+  }
+  
+  .quote {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .username {
+    color: #0FB1AC;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .navButton {
+    background-color: #0FB1AC;
+    border: none;
+    color: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    margin: 0 25px;
+  }
+  
+  .navButton:first-of-type {
+    left: -50px;
+  }
+  
+  .navButton:last-of-type {
+    right: -50px; 
+  }
+  
+  .navButton:hover {
+    background-color: #1d7774; 
+  }
+  
+  
+  .fadeIn {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
+  .fadeOut {
+    opacity: 0;
+    transform: translateX(20px); /* Animatsiya paytida biroz pastga tushadi */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  @media (max-width:690px) {
+    .reviewCard {
+      flex-wrap: wrap;
+      gap: 40px;
+      height: 400px;
+    }
+    .reviewText {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      position: relative;
+      margin: 0 auto;
+    }
+    .reviewImage {
+      width: 150px;
+      height: 150px;
+      top: 30px;
+      position: relative;
+      margin: 0 auto;
+      top: 30px;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .navButton {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+  @media (max-width: 410px) {
+    .quote, .username{
+      font-size: 15px;
+    }
+    p {
+      font-size: 15px;
+    }
+    .mainInfoHeader {
+      font-size: 35px;
+    }
+  }

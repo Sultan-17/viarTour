@@ -1,0 +1,179 @@
+{
+    "browseAll"                 : {
+        "browseButton"          : "Browse All"
+    },
+    "cards"                     : {
+        "date"                  : "22 June 2024",
+        "guests"                : "Guests",
+        "bookButton"            : "Book now",
+        "bali"                  : "Bali",
+        "paris"                 : "Paris",
+        "safari"                : "Safari",
+        "tokyo"                 : "Tokyo",
+        "kair"                  : "Kair",
+        "dubai"                 : "Dubai",
+        "rome"                  : "Rome",
+        "pekin"                 : "Pekin",
+        "moscow"                : "Moscow",
+        "baliDescription"       : "A short text about this city is posted.",
+        "parisDescription"      : "Brief information about Paris.",
+        "safariDescription"     : "Brief information about Safari.",
+        "tokyoDescription"      : "Brief information about Tokyo.",
+        "kairDescription"       : "Brief information about Kair.",
+        "dubaiDescription"      : "Brief information about Dubai.",
+        "romeDescription"       : "Brief information about Rome.",
+        "pekinDescription"      : "Brief information about Pekin.",
+        "moscowDescription"     : "Brief information about Moscow."
+    },
+    "chooseUs"                  : {
+        "infoSubTitle"          : "Why Choose Us?",
+        "infoTitle"             : "We craft memories,\nnot just trips.",
+        "cardTitle1"            : "Adventures Awaits",
+        "cardTitle2"            : "Luxury Travel",
+        "cardTitle3"            : "Cultural Journeys",
+        "cardTitle4"            : "Unforgettable Memories",
+        "cardParagraph1"        : "Discover new places",
+        "cardParagraph2"        : "Travel with comfort",
+        "cardParagraph3"        : "Explore the history",
+        "cardParagraph4"        : "Create lasting moments"
+    },
+    "differentCard"             : {
+        "infoTitle"             : "What makes us different?",
+        "infoParagraph"         : "At Viar, we believe travel is about creating unforgettable experiences. Our dedicated team  offers personalised service to ensure every journey is enjoyable and filled with   meaningful moments.\nWe choose the best places, give you expert advice and take care of everything so you can  enjoy your trip. With Viar, your adventure is always unique.",
+        "moreButton"            : "Read More"
+    },
+    "faq"                       : {
+        "leftQuestion1"         : "How can I book a tour?",
+        "leftQuestion2"         : "What payment methods do you accept?",
+        "leftQuestion3"         : "Can I customize my tour package?",
+        "leftAnswer1"           : "You can book a tour directly through our website or by contacting our support team via email or phone",
+        "leftAnswer2"           : "We accept credit/debit cards, PayPal, and bank transfers.",
+        "leftAnswer3"           : "Yes, we offer customizable tour packages to fit your specific preferences and needs.",
+        "rightQuestion1"        : "What is your cancellation policy?",
+        "rightQuestion2"        : "Do you offer group discounts?",
+        "rightQuestion3"        : "Is travel insurance included in the package?",
+        "rightAnswer1"          : "You can cancel up to 7 days before the tour for a full refund. Cancellations made within 7 days are subject to a 50% fee.",
+        "rightAnswer2"          : "Yes, we offer special discounts for groups of 5 or more. Please contact us for more details.",
+        "rightAnswer3"          : "No, travel insurance is not included. However, we highly recommend purchasing travel insurance before your trip.",
+        "fAQ"                   : "FAQ",
+        "fAQParagraph"          : "Have questions? Our FAQ section provides answers to some of the most common inquiries about our trips."
+    },
+    "footer"                    : {
+        "menu"                  : "Menu",
+        "home"                  : "Home",
+        "about"                 : "About",
+        "tours"                 : "Tours",
+        "contact"               : "Contact",
+        "popular"               : "Popular Tours",
+        "li1"                   : "Tropical Escape to Bali",
+        "li2"                   : "European Highlights Tour",
+        "li3"                   : "Japanese Culture and Cuisine",
+        "li4"                   : "African Safari Adventure",
+        "location"              : "Tashkent, Shahontohur district,\ncenter-15, 10-house, 29-room",
+        "ull"                   : "Design and Developed By Silicon Hub.",
+        "rights"                : "© 2024 Silicon Hub. All Right Reserved."
+    },
+    "header"                    : {
+        "home"                  : "Home",
+        "about"                 : "About",
+        "tours"                 : "Tours",
+        "contact"               : "Contact",
+        "language"              : "EN",
+        "getStartedButton"      : "Get Started"
+    },
+    "items"                     : {
+        "infoParagraph"         : "HOW IT STARTED.",
+        "infoTitle1"            : "Highlights of the journey",
+        "infoTitle2"            : "Our Team"
+    },
+    "line"                      : {
+        "title1"                : "The Story Behind Us",
+        "title2"                : "Our Future Plan",
+        "title3"                : "Our Origin Story",
+        "title4"                : "Our Current Status",
+        "infoParagraph1"        : "Learn about our resort's history and vision. A\nsimple idea has become a top destination, with\ngreat service and memories for all.",
+        "infoParagraph2"        : "Learn about our resort's history and vision. What\nbegan as a simple idea has grown into a top\ndestination, driven by a passion for great service\nand memorable experiences.",
+        "infoParagraph3"        : "Learn about our resort and why it was created.\nWe wanted to create a unique place where you\ncan relax, be comfortable and have fun.",
+        "infoParagraph4"        : "We want to grow and make a bigger impact by\nusing new technology and making our service\nbetter for customers."
+    },
+    "modal"                     : {
+        "infoTitle"             : "Thank you for your submission!",
+        "infoParagraph"         : "We will get back to you shortly."
+    },
+    "parallax"                  : {
+        "parallaxTitle"         : "Join our mailing list\nfor adventure lovers!",
+        "parallaxButton1"       : "Booking",
+        "parallaxButton2"       : "Browse Tours"
+    },
+    "resort"                    : {
+        "infoParagraph"         : "HOW IT STARTED.",
+        "infoTitle"             : "Experience a Day at Our Resort"
+    },
+    "reviewCarousel"            : {
+        "quote1"                : "The best experience we ever had",
+        "quote2"                : "A perfect getaway",
+        "quote3"                : "An unforgettable adventure",
+        "text1"                 : "At Viar, we take pride in crafting unforgettable journeys, and nothing speaks louder than the voices of our happy travelers.",
+        "text2"                 : "Viar made our trip exceptional with seamless planning and incredible destinations. We will come back for sure!",
+        "text3"                 : "Thanks to Viar, our adventure was full of excitement and joy. Highly recommended!",
+        "infoTitle"             : "Stories from our clients",
+        "infoParagraph"         : "The positive feedback we receive reflects the quality of our tour. Guests consistently appreciate our trips and personalised service."
+    },
+    "sameCards"                 : {
+        "kualaLumpur"           : "Kuala Lumpur",
+        "paris"                 : "Paris",
+        "rome"                  : "Rome",
+        "date"                  : "22 June 2024",
+        "guests"                : "Guests",
+        "kualaDescription"      : "Brief information about Kuala Lumpur.",
+        "parisDescription"      : "Brief information about Paris.",
+        "romeDescription"       : "Brief information about Rome.",
+        "bookButton"            : "Book now"
+    },
+    "teamCards"                 : {
+        "name1"                 : "Emily Carter",
+        "name2"                 : "James Lewis",
+        "name3"                 : "Sophia Martinez",
+        "price1"                : "General Manager",
+        "price2"                : "Head Chef",
+        "price3"                : "Guest Relations Manager"
+    },
+    "aboutPage"                 : {
+        "carouselText"          : "Get to Know Our Agency",
+        "carouselParagraph"     : "Uncover the highlights and unique aspects of our resorts.\nLearn about our exceptional service, comfortable accommodations, and the\narray of activities available to enhance your stay.",
+        "infoParagraph"         : "HOW IT STARTED.",
+        "infoTitle"             : "We've come a long way."
+    },
+    "contactPage"               : {
+        "title"                 : "Have a question? Let's chat",
+        "description"           : "Let us help you plan a vacation.",
+        "nameInput"             : "Name",
+        "phoneInput"            : "Phone Number",
+        "placeInput"            : "Where do you want to go?",
+        "fillAlert"             : "Please fill out all fields!",
+        "submitButton"          : "Submit",
+        "paymentTitle"          : "Pay for your\nreservation online",
+        "paymentParagraph"      : "You can officially pay with Uzcard, Humo, Mastercard cards\ndirectly online using PayMe payment service",
+        "paymentButton"         : "Go to Payment",
+        "locationTitle"         : "OUR LOCATION.",
+        "locationParagraph"     : "Head Office",
+        "locationName"          : "Tashkent, Shahontohur district,\ncenter-15, 10-house, 29-room",
+        "emailTitle"            : "Have any questions?",
+        "phoneTitle"            : "Want to discuss?",
+        "locationPopup"         : "Our office is here!"
+    },
+    "homePage"                  : {
+        "carouselTitle"         : "Your service travel\nwith Viar",
+        "carouselParagraph"     : "Discover unforgettable trips and amazing places around the world with us",
+        "exploreButton"         : "Explore Rooms",
+        "aboutButton"           : "Learn now",
+        "infoTitle"             : "Discover our Resorts!",
+        "infoParagraph"         : "Plan your next adventure with Viar and explore a world of stunninglandscapes, rich cultures, and unforgettable experiences."
+    },
+    "tourPage"                  : {
+        "carouselTitle"         : "Checkout Our Journey",
+        "carouselParagraph"     : "Discover the unique features and amenities of our resorts. Explore\nluxurious accommodations, enjoy diverse dining options, and learn\nabout the range of activities available.",
+        "infoTitle"             : "Choose trip",
+        "infoSubTitle"          : "Explore Our Available Spots"
+    }
+}

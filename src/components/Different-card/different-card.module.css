@@ -1,0 +1,155 @@
+.container {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1310px;  
+  margin: 0 auto;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 305px 305px;
+  grid-template-rows: 400px 305px; 
+  gap: 20px;
+  position: relative;
+  padding: 0 80px 0 8px;
+}
+ 
+.card {
+  border-radius: 20px;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.largeCard {
+  width: 305px;
+  height: 400px;
+  background-size: cover;
+}
+
+.smallCardTop {
+  width: 305px;
+  height: 305px;
+}
+
+.smallCardBottom {
+  width: 305px;
+  height: 305px;
+}
+
+.largeCardBottom {
+  width: 305px;
+  height: 400px;
+  position: relative;
+  top: -95px; 
+}
+
+.infoSection {
+  flex: 1;
+  box-sizing: border-box;
+  text-align: start;
+  padding: 0 20px 0 20px;
+}
+
+.infoSection h2 {
+  font-size: 36px;
+  color: rgba(7, 64, 73, 1);
+  padding: 10px 0;
+}
+
+.infoSection p {
+  font-size: 16px;
+  color: rgba(7, 64, 73, 0.8);
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 18px 38px;
+  background-color: rgba(15, 177, 172, 1);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgba(7, 64, 73, 1);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 1089px) {
+  .cardContainer {
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 973px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 380px;
+  }
+  .infoSection {
+    position: absolute;
+    text-align: center;
+  }
+  .cardContainer {
+    padding-top: 260px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .cardContainer {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .largeCard, .smallCardTop, .smallCardBottom, .largeCardBottom {
+    width: 100%;
+    height: 200px;
+  }
+
+  .largeCardBottom {
+    top: 0; /* Reset top positioning for small screens */
+  }
+
+  .infoSection {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .infoSection h2 {
+    font-size: 24px;
+  }
+
+  .infoSection p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 530px) {
+  .button {
+      padding: 10px 15px;
+      border-radius: 10px;
+    }
+    
+}
+@media (max-width: 372px) {
+  .cardContainer {
+    padding-top: 310px;
+  }
+}
+@media (max-width: 299px) {
+  .cardContainer {
+    padding-top: 350px;
+  }
+}

@@ -1,0 +1,66 @@
+.Header p{
+    font-size: 18px;
+    text-transform: uppercase;
+    color:  rgba(15, 177, 172, 1);
+    /* добавил Header и к нему текст */
+}
+.Subtitle p{
+    font-size: 56.83px;
+    color:  rgba(7, 64, 73, 1);
+    /* сабтайтл в Header и текст */
+}
+h1 {
+  font-size: 75px;
+}
+.Header{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    padding: 120px 0 82px;
+    gap: 30px;
+}
+@media screen and (max-width: 768px){
+    .Subtitle p{
+        font-size: 30px;
+        color:  rgba(7, 64, 73, 1);
+        
+    }
+    /* сделал поменьше размер что бы на телефоне было не слишком большое */
+}
+.carouselContainer { 
+    width: 100%;
+    position: relative;
+  }
+  
+  .carouselItem { 
+    position: relative;
+    width: 100%;
+  }
+  
+  .carouselItem img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    color: white;
+    background: linear-gradient(to top, rgb(4, 48, 54), rgba(7, 64, 73, 0.651), rgba(12, 87, 99, 0.74));
+    z-index: 1; /* Image ustiga chiqishi uchun */
+  }
+  @media (max-width: 790px) {
+    h1 {
+      font-size: 40px;
+    }
+  }

@@ -1,0 +1,208 @@
+.logo {
+    width: 120px;
+    height: auto;
+}
+.header { 
+    margin: 20px auto;
+    width: 1290px;
+    left: 50%;
+    transform: translateX(-50%) ;
+    border-radius: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    background-color: rgba(255, 255, 255, 1); /* Tiffany blue */
+    z-index: 1800;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    transition: all 0.3s ease; 
+}
+
+.nav a {
+    color: rgba(7, 64, 73, 1);
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    padding: 1.5rem 1rem 0;
+    border-radius: 55px;
+    font-size: 18px;
+    
+}
+
+.nav a:hover {
+    background-color: #2C3E50;
+    color: white;
+}
+
+.languageDropdown {
+    position: relative;
+  }
+  .languageDropdowns {
+    display: none; /* Hidden by default */
+}
+
+
+@media (max-width: 840px) {
+    .languageDropdown {
+        display: none; /* Hidden when screen width is less than 840px */
+    }
+    .languageDropdowns {
+      display: flex;
+      margin-bottom: 20px;
+  }
+}
+  
+  .langButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 25px 0 0;
+  }
+  
+  .langOptions {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 10;
+    padding: 5px 10px;
+  }
+  
+  .langOptions button {
+    border: none;
+    background: white;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .langOptions button:hover {
+    background: rgba(163, 163, 163, 0.534);
+  }
+  
+  .nav .getStartedButton {
+    background-color: #0FB1AC;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-radius: 60px;
+    text-align: center;
+  }
+  
+  
+
+.burger {
+    display: none !important;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.hidden {
+  display: none !important; /* Hides the element */
+}
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #0abab5;
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+@media (max-width: 1300px) {
+  .header {
+    width: 98%;
+  }
+}
+
+@media (max-width: 840px) {
+  .hidden {
+    display: flex !important;
+    gap: 15px;
+    margin-right: 10px;
+ }
+  .burger {
+    display: flex !important;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 2;
+}
+    .nav {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: 80px;
+      right: 0;
+      background-color: #0abab5;
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center; 
+      transition: all 0.5s ease-in-out;
+      z-index: 99;
+    }
+    .nav a {
+      padding: 1.5rem 1rem 1rem;
+    }
+    .nav a:hover {
+      width: 90%;
+    }
+    .nav .getStartedButton {
+      padding: 1.5rem 1rem 0rem;
+    }
+  
+    .navOpen {
+      display: flex;
+      justify-content: center;
+      animation: slideDown 0.5s ease-in-out forwards;
+    }
+  
+    .burger {
+      display: flex;
+    }
+
+    .burger div {
+      transition: all 0.3s ease;
+    }
+}
+
+
+.toggle .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-7px, 8px);
+}
+
+.toggle .line:nth-child(2) {
+    opacity: 0;
+}
+
+.toggle .line:nth-child(3) {
+    transform: rotate(45deg) translate(-7px, -8px);
+}
+
+@keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+}
+
+
+.burger-wrapper{
+  display: flex !important;
+  align-items: center !important ;
+}

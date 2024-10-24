@@ -1,0 +1,211 @@
+/* Faq.module.css */
+
+.container {
+  max-width: 1200px;
+  width: 86%;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.mainInfo {
+  text-align: center; 
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.accordionItem {
+  margin-bottom: 10px;
+  border: 1px solid rgb(148, 146, 146);
+  border-radius: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.accordionButton {
+  background-color: white;
+  color: black;
+  padding: 25px;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.5s ease, color 0.2s ease; 
+}
+.accordionButton:hover {
+  background-color: #0FB1AC;
+  color: white;
+}
+
+.accordionContent {
+  padding: 10px;
+  background-color: white;
+  display: block;
+  transition: 0.5s ease-out;
+}
+
+.icon {
+  transition: transform 0.5s ease; /* плавная анимация изменения поворота */
+}
+
+
+.icon {
+  font-size: 20px;
+}
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.line {
+  width: 140px;
+  border-radius: 5px;
+  height: 5px; 
+  background-color: #0FB1AC;
+  
+}
+@media (max-width: 768px) {
+  .container {
+    padding-top: 90px;
+
+  }
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 180px 20px;
+  padding-bottom: 60px;  
+}
+
+.title {
+  text-align: center;
+  font-size: 32px;
+  color: black;
+
+}
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+.line {
+  width: 140px;
+  border-radius: 5px;
+  height: 5px; 
+  background-color: #0FB1AC;
+  
+}
+
+.accordionGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-gap: 20px; 
+  gap: 20px; 
+  justify-items: stretch;
+}
+
+.accordionItem {
+  border: 1px solid gray;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.accordionButton {
+  background-color: white;
+  color: black;
+  padding: 25px;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordionButton:hover {
+  background-color: rgba(15, 177, 172, 1);
+}
+
+.icon {
+  font-size: 16px;
+}
+
+.accordionContent {
+  padding: 0 15px;
+  background-color: rgba(240, 240, 240, 1);
+  font-size: 16px;
+  line-height: 1.5;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.open {
+  max-height: 1000px;
+  transition: max-height 2s ease;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 90px;
+  }
+  .accordionGrid {
+    grid-template-columns: 1fr;
+  }
+} */

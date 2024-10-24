@@ -1,0 +1,23 @@
+.BrowseAll{
+    width: 164px;
+    height: 61px;
+    border: 1px solid #074049;
+    color: #074049;
+    border-radius: 55px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BrowseAll:hover {
+    background-color: #0FB1AC;
+    border-color: #0FB1AC;
+    color: white;
+}
+.bottomItem {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 75px;
+}
