@@ -64,7 +64,7 @@
         "about"                 : "Biz haqimizda",
         "tours"                 : "Turlar",
         "contact"               : "Aloqa",
-        "popular"               : "Mashhur sayohatlar",
+        "popular"               : "Mashxur sayohatlar",
         "li1"                   : "Baliga tropik sayohat",
         "li2"                   : "Yevropa bo‘ylab sayohat",
         "li3"                   : "Yaponiya madaniyati va oshxonasi",
@@ -101,7 +101,7 @@
         "infoParagraph"         : "Tez orada sizga qayta javob beramiz."
     },
     "parallax"                  : {
-        "parallaxTitle"         : "Sarguzasht sevuvchilar\npochtasiga qo'shiling!",
+        "parallaxTitle"         : "Sarguzasht sevuchilar\npochtasiga qo'shiling!",
         "parallaxButton1"       : "Band qilish",
         "parallaxButton2"       : "Sayohatlarni ko‘rish"
     },

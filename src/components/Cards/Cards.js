@@ -52,15 +52,15 @@ const Cards = () => {
   const [ t ] = useTranslation();
 
   const tours = [
-    { image: image1, title: t("cards.bali"), description: t("cards.baliDescription"), price: '$1200' },
-    { image: image2, title: t("cards.paris"), description: t("cards.parisDescription"), price: '$1500' },
-    { image: image3, title: t("cards.safari"), description: t("cards.safariDescription"), price: '$1400' },
-    { image: image4, title: t("cards.tokyo"), description: t("cards.tokyoDescription"), price: '$1400' },
-    { image: image5, title: t("cards.kair"), description: t("cards.kairDescription"), price: '$1400' },
-    { image: image6, title: t("cards.dubai"), description: t("cards.dubaiDescription"), price: '$1400' },
-    { image: image7, title: t("cards.rome"), description: t("cards.romeDescription"), price: '$1400' },
-    { image: image8, title: t("cards.pekin"), description: t("cards.pekinDescription"), price: '$1400' },
-    { image: image9, title: t("cards.moscow"), description: t("cards.moscowDescription"), price: '$1400' },
+    { image: image1, title: t("cards.bali"), description: t("cards.baliDescription"), price: '$600' },
+    { image: image2, title: t("cards.paris"), description: t("cards.parisDescription"), price: '$560' },
+    { image: image3, title: t("cards.safari"), description: t("cards.safariDescription"), price: '$950' },
+    { image: image4, title: t("cards.tokyo"), description: t("cards.tokyoDescription"), price: '$1150' },
+    { image: image5, title: t("cards.kair"), description: t("cards.kairDescription"), price: '$550' },
+    { image: image6, title: t("cards.dubai"), description: t("cards.dubaiDescription"), price: '$600' },
+    { image: image7, title: t("cards.rome"), description: t("cards.romeDescription"), price: '$800' },
+    { image: image8, title: t("cards.pekin"), description: t("cards.pekinDescription"), price: '$1200' },
+    { image: image9, title: t("cards.moscow"), description: t("cards.moscowDescription"), price: '$500' },
   ];
 
   return (
