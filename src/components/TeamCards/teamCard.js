@@ -6,7 +6,7 @@ import image6 from '../../assets/YouToub.svg'
 import image7 from '../../assets/facebook-app-symbol.png'
 import { useTranslation } from 'react-i18next';
 
-import Human1 from '../../assets/human1 (1).png';
+import Human1 from '../../assets/human1.png';
 import Human2 from '../../assets/human2.png';
 import Human3 from '../../assets/human3.png'; 
 
