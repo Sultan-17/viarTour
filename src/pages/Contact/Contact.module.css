@@ -1,17 +1,15 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
     padding-top: 175px;
     margin-bottom: 150px;
   }
   .mainContent {
-    text-align: center;
-    width: 1290px;
-    height: 633px; 
     display: flex;
-    margin: auto;
-    gap: 88px;
-    border-radius: 55px;
-    background-color: white;
-    border: 1px solid #D8D8D8;
+    justify-content: center;
+    align-items: center;
   }
 
     .leftSide {
@@ -27,45 +25,45 @@
   }
   
   .rightSide {
-    flex: 1; 
+    width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+    padding: 40px;
+    text-align: center;
+    border-radius: 55px;
+    background-color: white;
+    border: 1px solid #D8D8D8;
+    gap: 20px;
   }
   
   .title {
-    font-size: 57px;
-    margin-bottom: 20px;
+    font-size: 55px;
     color: #0FB1AC;
   }
- 
-  
+
   .description {
-    margin-bottom: 20px;
     font-size: 24px;
   }
   
   .input {
-    width: 78%;
+    width: 80%;
     height: 50px;
     margin-bottom: 15px;
     padding-left: 22px;
     font-size: 1rem;
-    border: 1px solid #cccccc41;
+    border: 1px solid #D8D8D8;
     border-radius: 55px;
     
   }
   
   .button {
     width: 80%;
-    height: 61px;
+    height: 60px;
     background-color: #0FB1AC;
     color: #fff;
     font-size: 1rem;
     border: none;
-    border-radius: 40px;
+    border-radius: 55px;
     cursor: pointer;
     margin-top: 45px;
   }
@@ -80,7 +78,7 @@
     align-items: center;
     text-align: center;
     gap: 35px;
-    padding: 160px 20px 0;
+    padding: 100px 0px 0px 0px;
 
   }
   .Payment p {
@@ -191,10 +189,7 @@
     font-size: 23px;
     padding-bottom: 8px;
   }
-  form{
-    text-align: center;
-    max-width: 800px;
-  }
+  
   .right {
     flex: 1;
     display: flex;
