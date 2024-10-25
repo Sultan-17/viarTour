@@ -56,7 +56,9 @@ const Header = () => {
 
   return (
     <header className={styles.header}>
+      <Link to="/" onClick={handleLinkClick}>
       <img src={logo} alt="Tourism Logo" className={styles.logo} />
+      </Link>
       <nav className={`${styles.nav} ${isOpen ? styles.navOpen : ''}`}>
         <Link to="/" onClick={handleLinkClick}>{t("header.home")}</Link>
         <Link to="/about" onClick={handleLinkClick}>{t("header.about")}</Link>

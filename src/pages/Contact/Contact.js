@@ -5,6 +5,8 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import image2 from '../../assets/mingcute_phone-fill.png';
 import image3 from '../../assets/Vector2.png';
+import mastercard from '../../assets/mastercard.png';
+import humo from '../../assets/humo.png';
 import payme from '../../assets/Payme.png';
 import click from '../../assets/click..png';
 import Modal from '../../components/Modal/Modal'; // Modalni import qilish
@@ -98,12 +100,29 @@ const Contact = () => {
         <h2 className={styles.infoTitle}>{renderTextWithLineBreaks(t("contactPage.paymentTitle"))}</h2>
         <p className={styles.paragraph}>{renderTextWithLineBreaks(t("contactPage.paymentParagraph"))}</p>
         <div className={styles.Cards}>
-          <div className={styles.leftCard}>
+          <div className={styles.card}>
+            <div className={styles.imgbox}>
             <img src={payme} alt="PayMe" className={styles.img} />
+            </div>
             <button className={styles.button}>{t("contactPage.paymentButton")}</button>
           </div>
-          <div className={styles.rightCard}>
-            <img src={click} alt="Click" className={styles.imge} />
+          <div className={styles.card}>
+          <div className={styles.imgbox}>
+          <img src={humo} alt="Humo" className={styles.img} />
+            </div>
+            
+            <button className={styles.button}>{t("contactPage.paymentButton")}</button>
+          </div>
+          <div className={styles.card}>
+          <div className={styles.imgbox}>
+          <img src={click} alt="Click" className={styles.img} />
+            </div>
+            <button className={styles.button}>{t("contactPage.paymentButton")}</button>
+          </div>
+          <div className={styles.card}>
+          <div className={styles.imgbox}>
+          <img src={mastercard} alt="MasterCard" className={styles.img} />
+            </div>
             <button className={styles.button}>{t("contactPage.paymentButton")}</button>
           </div>
         </div>

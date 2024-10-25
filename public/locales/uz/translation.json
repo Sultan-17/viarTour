@@ -39,11 +39,11 @@
     },
     "differentCard"             : {
         "infoTitle"             : "Bizni boshqalardan nima farqimiz bor?",
-        "infoParagraph"         : "Viar’da bizning e’tiqodimiz shuki, sayohat bu unutilmas tajribalar yaratishdir. Bizning jamoamiz har bir sayohat yoqimli va mazmunli bo‘lishi uchun shaxsiy xizmatni taklif etadi.\nEng yaxshi joylarni tanlab, maslahat beramiz va sizning sayohatingizdan to‘liq zavq olishingiz uchun barcha narsalarni o‘zimiz hal qilamiz. Viar bilan sizning sarguzashtingiz har doim noyob bo‘ladi.",
+        "infoParagraph"         : "Viarda bizning e’tiqodimiz shuki, sayohat bu unutilmas tajribalar yaratishdir. Bizning jamoamiz har bir sayohat yoqimli va mazmunli bo‘lishi uchun shaxsiy xizmatni taklif etadi.\nEng yaxshi joylarni tanlab, maslahat beramiz va sizning sayohatingizdan to‘liq zavq olishingiz uchun barcha narsalarni o‘zimiz hal qilamiz. Viar bilan sizning sarguzashtingiz har doim noyob bo‘ladi.",
         "moreButton"            : "Batafsil"
     },
     "faq"                       : {
-        "leftQuestion1"         : "Qanday qilib sayohatni band etishim mumkin?",
+        "leftQuestion1"         : "Qanday qilib sayohatni band qilishim mumkin?",
         "leftQuestion2"         : "Qaysi to‘lov usullarini qabul qilasiz?",
         "leftQuestion3"         : "Sayohat paketini moslashtirish mumkinmi?",
         "leftAnswer1"           : "Sayohatni veb-saytimiz orqali yoki qo‘llab-quvvatlash jamoamizga email yoki telefon orqali murojaat qilib band etishingiz mumkin.",
@@ -52,7 +52,7 @@
         "rightQuestion1"        : "Bekor qilish siyosati qanday?",
         "rightQuestion2"        : "Guruh uchun chegirmalar bormi?",
         "rightQuestion3"        : "Sayohat sug‘urtasi paketga kiritilganmi?",
-        "rightAnswer1"          : "To‘liq qaytarish uchun sayohatga 7 kun qolgunga qadar bekor qilishingiz kerak. 7 kun ichida bekor qilingan sayohatlar uchun 50% to‘lov olinadi.",
+        "rightAnswer1"          : "To‘liq qaytarish uchun sayohatga 7 kun qolgunga qadar bekor qilishingiz kerak. 7 kun ichida bekor qilingan sayohatlar uchun to‘lovning 50% olinadi.",
         "rightAnswer2"          : "Ha, 5 yoki undan ortiq odam uchun maxsus chegirmalar mavjud. Qo‘shimcha ma’lumot uchun biz bilan bog‘laning.",
         "rightAnswer3"          : "Yo‘q, sayohat sug‘urtasi paketga kiritilmagan. Shuning uchun, sayohatdan oldin sug‘urta sotib olishingizni tavsiya qilamiz.",
         "fAQ"                   : "FAQ",
@@ -74,7 +74,7 @@
         "rights"                : "© 2024 Silicon Hub. Barcha huquqlar himoyalangan."
     },
     "header"                    : {
-        "home"                  : "Asosiy",
+        "home"                  : "Bosh sahifa",
         "about"                 : "Biz haqimizda",
         "tours"                 : "Turlar",
         "contact"               : "Aloqa",
@@ -97,13 +97,13 @@
         "infoParagraph4"        : "Biz yangi texnologiyalardan foydalanish va\nmijozlar uchun xizmatimizni yaxshilash orqali\no'sishni va katta ta'sir\nko'rsatishni xohlaymiz."
     },
     "modal"                     : {
-        "infoTitle"             : "Taqdim etganingiz uchun tashakkur!",
+        "infoTitle"             : "So'rovingiz uchun tashakkur!",
         "infoParagraph"         : "Tez orada sizga qayta javob beramiz."
     },
     "parallax"                  : {
         "parallaxTitle"         : "Sarguzasht sevuchilar\npochtasiga qo'shiling!",
         "parallaxButton1"       : "Band qilish",
-        "parallaxButton2"       : "Sayohatlarni ko‘rish"
+        "parallaxButton2"       : "Turlarni ko‘rish"
     },
     "resort"                    : {
         "infoParagraph"         : "QANDAY BOSHLANDI.",
@@ -147,13 +147,13 @@
     "contactPage"               : {
         "title"                 : "Savolingiz bormi? Keling, suhbatlashamiz",
         "description"           : "Sizga ta’tilingizni rejalashtirishda yordam beramiz.",
-        "nameInput"             : "Ism",
+        "nameInput"             : "F.I.Sh.",
         "phoneInput"            : "Telefon raqami",
         "placeInput"            : "Qayerga borishni xohlaysiz?",
         "fillAlert"             : "Iltimos barcha bo'shliqlarni to'ldiring!",
         "submitButton"          : "Yuborish",
-        "paymentTitle"          : "Bron uchun\nonline to‘lang",
-        "paymentParagraph"      : "Uzcard, Humo va Mastercard kartalari orqali to‘lovlarni\nPayMe orqali amalga oshirishingiz mumkin.",
+        "paymentTitle"          : "Bron qilish uchun\nonline to‘lang",
+        "paymentParagraph"      : "To'lovlarni Uzcard, Humo,Payme va Mastercard kartalari\n orqali amalga oshirishingiz mumkin.",
         "paymentButton"         : "To‘lovga o‘tish",
         "locationTitle"         : "BIZNING JOYLASHUVIMIZ.",
         "locationParagraph"     : "Bosh ofis",
