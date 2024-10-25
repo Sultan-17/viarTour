@@ -60,7 +60,7 @@ const Contact = () => {
 
   return (
     <div className={styles.container}>
-      <img src={image} alt="Sample" className={styles.image} />
+      <img src={image} alt="Sampl" className={styles.image} />
       <div className={styles.mainContent}>
         <div className={styles.leftSide}>
         </div>
@@ -71,7 +71,7 @@ const Contact = () => {
             <input 
               type="text" 
               placeholder={t("contactPage.nameInput")} 
-              className={`${styles.input} ${validationErrors.name ? styles.errorInput : ''}`} // Conditional styling for error
+              className={`${styles.input} ${validationErrors.name ? styles.errorInput : ''}`}
               value={name}
               onChange={(e) => setName(e.target.value)} // Inputni boshqarish
             />
