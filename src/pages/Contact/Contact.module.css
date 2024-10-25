@@ -3,10 +3,11 @@
     margin-bottom: 150px;
   }
   .mainContent {
+    text-align: center;
     width: 1290px;
     height: 633px; 
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     gap: 88px;
     border-radius: 55px;
     background-color: white;
@@ -30,8 +31,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
     padding: 20px;
+    text-align: center;
     box-sizing: border-box;
   }
   
