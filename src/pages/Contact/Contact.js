@@ -65,7 +65,7 @@ const Contact = () => {
           <p className={styles.description}>{t("contactPage.description")}</p>
           <form onSubmit={handleSubmit}> {/* Form yaratish */}
             <input 
-              type="text" 
+              type="text"
               placeholder={t("contactPage.nameInput")} 
               className={`${styles.input} ${validationErrors.name ? styles.errorInput : ''}`} // Conditional styling for error
               value={name}
