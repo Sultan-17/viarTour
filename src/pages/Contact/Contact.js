@@ -3,7 +3,7 @@ import styles from './Contact.module.css';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import image1 from '../../assets/bouth.png';
+import image1 from '../../assets/Bouth.png';
 import image2 from '../../assets/mingcute_phone-fill.png';
 import image3 from '../../assets/Vector2.png';
 import payme from '../../assets/Payme.png';
@@ -60,9 +60,9 @@ const Contact = () => {
 
   return (
     <div className={styles.container}>
+      <img src={image1} alt="Sample" className={styles.image} />
       <div className={styles.mainContent}>
         <div className={styles.leftSide}>
-          <img src={image1} alt="Sample" className={styles.image} />
         </div>
         <div className={styles.rightSide}>
           <h2 className={styles.title}>{t("contactPage.title")}</h2>
