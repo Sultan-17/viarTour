@@ -144,7 +144,9 @@
       padding: 10px 15px;
       border-radius: 10px;
     }
-    
+    .container{
+      padding-bottom: 300px;
+    }  
 }
 @media (max-width: 372px) {
   .cardContainer {

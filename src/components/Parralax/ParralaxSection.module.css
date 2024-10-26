@@ -1,26 +1,20 @@
 
 .parallaxSection {
-  background-image: url('../../assets/viar-pattern.png'); /* Pattern rasmingizni path'ini yozing */
+  background-image: url('../../assets/viar-pattern.png');
   background-attachment: fixed;
-  background-position: center top; /* Boshlanish pozitsiyasi tepada */
-  background-repeat: repeat; /* Orqa fonni pattern qilib qaytarish */
   background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   color: white;
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 150px;
-  /* margin-top: 180px;  */
 }
 
 .content {
   width: 1290px;
   margin: 100px auto;
   padding: 20px;
-  background: rgba(7, 64, 73, 1); /* Kontent qismi uchun yarim shaffof fon */
+  background: rgba(7, 64, 73, 1);
   border-radius: 40px;
   display: flex;
   justify-content: space-around;
