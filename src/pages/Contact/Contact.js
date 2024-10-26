@@ -63,7 +63,7 @@ const Contact = () => {
     <div className={styles.container}>
       <div className={styles.mainContent}>
         <div className={styles.rightSide}>
-          <h2 className={styles.title}>{t("contactPage.title")}</h2>
+          <h2 className={styles.title}>{renderTextWithLineBreaks(t("contactPage.title"))}</h2>
           <p className={styles.description}>{t("contactPage.description")}</p>
           <form onSubmit={handleSubmit}> {/* Form yaratish */}
             <input 

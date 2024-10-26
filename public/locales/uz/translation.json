@@ -145,7 +145,7 @@
         "infoTitle"             : "Biz uzoq yo‘lni bosib o‘tdik."
     },
     "contactPage"               : {
-        "title"                 : "Savolingiz bormi? Keling, suhbatlashamiz",
+        "title"                 : "Savolingiz bormi?\nKeling, suhbatlashamiz",
         "description"           : "Sizga ta’tilingizni rejalashtirishda yordam beramiz.",
         "nameInput"             : "F.I.Sh.",
         "phoneInput"            : "Telefon raqami",
@@ -165,7 +165,7 @@
     "homePage"                  : {
         "carouselTitle"         : "Viar bilan\nsayohat xizmati",
         "carouselParagraph"     : "Biz bilan unutilmas sayohatlar va dunyodagi ajoyib joylarni kashf qiling",
-        "exploreButton"         : "Xonalarni ko'rish",
+        "exploreButton"         : "Turlarni ko'rish",
         "aboutButton"           : "Batafsil o'qish",
         "infoTitle"             : "Bizning turlar bilan tanishing!",
         "infoParagraph"         : "Viar bilan keyingi sarguzashtingizni rejalashtiring va ajoyib manzaralar, boy madaniyatlar va unutilmas tajribalarni kashf qiling."
