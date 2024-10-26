@@ -6,7 +6,7 @@ import L from 'leaflet';
 import image2 from '../../assets/mingcute_phone-fill.png';
 import image3 from '../../assets/Vector2.png';
 import mastercard from '../../assets/mastercard.png';
-import humo from '../../assets/humo.png';
+import visa from '../../assets/visa.png';
 import payme from '../../assets/Payme.png';
 import click from '../../assets/click..png';
 import Modal from '../../components/Modal/Modal'; // Modalni import qilish
@@ -108,7 +108,7 @@ const Contact = () => {
           </div>
           <div className={styles.card}>
           <div className={styles.imgbox}>
-          <img src={humo} alt="Humo" className={styles.img} />
+          <img src={visa} alt="Visa" className={styles.img} />
             </div>
             
             <button className={styles.button}>{t("contactPage.paymentButton")}</button>
