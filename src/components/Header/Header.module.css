@@ -79,14 +79,17 @@
   }
   
   .langOptions button {
+    display: flex;
     border: none;
     background: white;
-    display: block;
     padding: 5px 0;
     text-decoration: none;
     color: black;
   }
-  
+  button img{
+    width: 20px;
+    height: 20px;
+  }
   .langOptions button:hover {
     background: rgba(163, 163, 163, 0.534);
   }

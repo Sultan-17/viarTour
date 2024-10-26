@@ -65,6 +65,7 @@ const Contact = () => {
         <div className={styles.rightSide}>
           <h2 className={styles.title}>{renderTextWithLineBreaks(t("contactPage.title"))}</h2>
           <p className={styles.description}>{t("contactPage.description")}</p>
+          </div>
           <form onSubmit={handleSubmit}> {/* Form yaratish */}
             <input 
               type="text" 
@@ -90,7 +91,6 @@ const Contact = () => {
             <button type="submit" className={styles.button}>{t("contactPage.submitButton")}</button>
           </form>
           {errorMessage && <p className={styles.error}>{errorMessage}</p>} {/* Xato xabari */}
-        </div>
       </div>
 
       {/* Modal ochilgan bo'lsa, uni ko'rsatadi */}

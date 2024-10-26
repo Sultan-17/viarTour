@@ -147,7 +147,7 @@
     "contactPage"               : {
         "title"                 : "Savolingiz bormi?\nKeling, suhbatlashamiz",
         "description"           : "Sizga ta’tilingizni rejalashtirishda yordam beramiz.",
-        "nameInput"             : "F.I.Sh.",
+        "nameInput"             : "F.I.SH.",
         "phoneInput"            : "Telefon raqami",
         "placeInput"            : "Qayerga borishni xohlaysiz?",
         "fillAlert"             : "Iltimos barcha bo'shliqlarni to'ldiring!",
