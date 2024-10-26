@@ -151,7 +151,7 @@ const Contact = () => {
               </div>
               <div className={styles.Info}>
                 <p className={styles.first}>{t("contactPage.phoneTitle")}</p>
-                <p className={styles.second}>+998911234567</p>
+                <p className={styles.second}>+998880100011</p>
               </div>
             </div>
           </div>
