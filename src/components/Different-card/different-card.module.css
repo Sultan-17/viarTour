@@ -149,11 +149,18 @@
     }  
 }
 @media (max-width: 372px) {
+  .container{
+    padding-bottom: 300px;
+  }  
   .cardContainer {
     padding-top: 310px;
   }
 }
+
 @media (max-width: 299px) {
+  .container{
+    padding-bottom: 300px;
+  }  
   .cardContainer {
     padding-top: 350px;
   }
