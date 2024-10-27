@@ -156,9 +156,9 @@
     padding-top: 310px;
   }
 }
-@media (max-height: 771px) and (max-width: 360px){
+@media (max-height: 772px) and (max-width: 361px){
   .container{
-    padding-bottom: 400px;
+    padding-bottom: 500px;
   }
 }
 
