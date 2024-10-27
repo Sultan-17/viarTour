@@ -156,6 +156,11 @@
     padding-top: 310px;
   }
 }
+@media (max-height: 771px) and (max-width: 360px){
+  .container{
+    padding-bottom: 400px;
+  }
+}
 
 @media (max-width: 299px) {
   .container{
