@@ -33,7 +33,7 @@
     color: rgba(7, 64, 73, 1);
     text-decoration: none;
     transition: background-color 0.3s ease;
-    padding: 1.5rem 1rem 1.5rem;
+    padding: 1.5rem 1rem 0;
     border-radius: 55px;
     font-size: 18px;
     
