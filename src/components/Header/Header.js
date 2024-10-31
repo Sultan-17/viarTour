@@ -96,9 +96,9 @@ const Header = () => {
           </button>
           {isLangOpen2 && (
             <div className={styles.langOptions}>
-              <button onClick={() => changeLanguage("uz")}>UZ</button>
-              <button onClick={() => changeLanguage("ru")}>RU</button>
-              <button onClick={() => changeLanguage("en")}>EN</button>
+              <button onClick={() => changeLanguage("uz")}><img src={UZ}/><p>UZ</p></button>
+              <button onClick={() => changeLanguage("ru")}><img src={RU}/><p>RU</p></button>
+              <button onClick={() => changeLanguage("en")}><img src={EN}/><p>EN</p></button>
             </div>
           )}
         </div>
