@@ -76,7 +76,7 @@ const Contact = () => {
             />
             <input 
               type="text" 
-              placeholder={t("contactPage.phoneInput")}
+              placeholder={t("contactPage.emailInput")}
               className={`${styles.input} ${validationErrors.phone ? styles.errorInput : ''}`} // Conditional styling for error
               value={phone}
               onChange={(e) => setPhone(e.target.value)} // Inputni boshqarish
