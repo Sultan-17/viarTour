@@ -148,7 +148,7 @@
         "title"                 : "Have a question? Let's chat",
         "description"           : "Let us help you plan a vacation.",
         "nameInput"             : "Full name",
-        "phoneInput"            : "Phone Number",
+        "emailInput"            : "Email address",
         "placeInput"            : "Where do you want to go?",
         "fillAlert"             : "Please fill out all fields!",
         "submitButton"          : "Submit",
