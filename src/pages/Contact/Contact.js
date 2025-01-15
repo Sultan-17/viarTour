@@ -142,7 +142,7 @@ const Contact = () => {
               </div>
               <div className={styles.Info}>
                 <p className={styles.first}>{t("contactPage.emailTitle")}</p>
-                <p className={styles.second}>example@example.com</p>
+                <p className={styles.second}>viartours@gmail.com</p>
               </div>
             </div>
             <div className={styles.item}>
