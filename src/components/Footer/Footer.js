@@ -54,6 +54,7 @@ const Footer = () => {
           <h3>{t("footer.number")}</h3>
           <h3>{t("footer.worktime")}</h3>
           <h3>{t("footer.director")}</h3>
+          <h3>{t("footer.email")}</h3>
           <div className={styles.icons}>
             <a href="https://www.instagram.com/viartour.uz/profilecard/?igsh=MXJjeXlrejdyem5hNA==" target="_blank" rel="noopener noreferrer" className={styles.icon}>
               <img src={image4} alt='Instagram' />
