@@ -13,6 +13,11 @@ import image6 from '../../assets/six.png';
 import image7 from '../../assets/seven.png';
 import image8 from '../../assets/eyte.png';
 import image9 from '../../assets/nine.png';
+import image10 from '../../assets/ten.png';
+import image11 from '../../assets/eleven.png';
+import image12 from '../../assets/twelve.png';
+import image13 from '../../assets/thirteen.png';
+import image14 from '../../assets/fourteen.png';
 
 const Another = ({ tour }) => {
 
@@ -38,7 +43,7 @@ const Another = ({ tour }) => {
           </div>
           <div className={styles.icon}>
             <FaUser />
-            <span>15 {t("cards.guests")}</span>
+            <span> {t("cards.guests")}</span>
           </div>
         </div>
         <button className={styles.bookBtn} onClick={handleBrowseAllClick}>{t("cards.bookButton")}</button>
@@ -52,15 +57,20 @@ const Cards = () => {
   const [ t ] = useTranslation();
 
   const tours = [
-    { image: image1, title: t("cards.bali"), description: t("cards.baliDescription"), price: '$600' },
-    { image: image2, title: t("cards.paris"), description: t("cards.parisDescription"), price: '$560' },
-    { image: image3, title: t("cards.safari"), description: t("cards.safariDescription"), price: '$950' },
-    { image: image4, title: t("cards.tokyo"), description: t("cards.tokyoDescription"), price: '$1150' },
-    { image: image5, title: t("cards.kair"), description: t("cards.kairDescription"), price: '$550' },
-    { image: image6, title: t("cards.dubai"), description: t("cards.dubaiDescription"), price: '$600' },
-    { image: image7, title: t("cards.rome"), description: t("cards.romeDescription"), price: '$800' },
-    { image: image8, title: t("cards.pekin"), description: t("cards.pekinDescription"), price: '$1200' },
-    { image: image9, title: t("cards.moscow"), description: t("cards.moscowDescription"), price: '$500' },
+    { image: image1, title: t("cards.Maldives"), description: t("cards.baliDescription"), price: '757 $' },
+    { image: image2, title: t("cards.Vietnam"), description: t("cards.parisDescription"), price: '610 $' },
+    { image: image3, title: t("cards.Dubai"), description: t("cards.safariDescription"), price: '270 $' },
+    { image: image4, title: t("cards.Egypt"), description: t("cards.tokyoDescription"), price: '450 $' },
+    { image: image5, title: t("cards.Bali"), description: t("cards.kairDescription"), price: '1200 $' },
+    { image: image6, title: t("cards.Jordan"), description: t("cards.dubaiDescription"), price: '600 $' },
+    { image: image7, title: t("cards.Sri Lanka"), description: t("cards.romeDescription"), price: '850 $' },
+    { image: image8, title: t("cards.Azerbaijan Baku"), description: t("cards.pekinDescription"), price: '566 $' },
+    { image: image9, title: t("cards.Georgia Batumi"), description: t("cards.moscowDescription"), price: '533 $' },
+    { image: image10, title: t("cards.Malaysia Kuala Lumpur"), description: t("cards.moscowDescription"), price: '1130 $' },
+    { image: image11, title: t("cards.Zanzibar"), description: t("cards.moscowDescription"), price: '1485 $' },
+    { image: image12, title: t("cards.Montenegro"), description: t("cards.moscowDescription"), price: '750 $' },
+    { image: image13, title: t("cards.Türkiye"), description: t("cards.moscowDescription"), price: '650 $' },
+    { image: image14, title: t("cards.Antalya"), description: t("cards.moscowDescription"), price: '1033 $' },
   ];
 
   return (
